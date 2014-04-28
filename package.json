@@ -1,0 +1,27 @@
+{
+  "name": "plex-convert",
+  "description": "Simplified conversion of DVD images to Plex compatable files.",
+  "tags": [
+    "plex",
+    "handbrake",
+    "util",
+    "utility",
+    "video",
+    "convert"
+  ],
+  "version": "1.0.0",
+  "author": {
+    "name": "Beau West",
+    "email": "beau@west.gs"
+  },
+  "license": "Apache, Version 2.0",
+  "engines": [
+    "node >= 0.8.0"
+  ],
+  "main": "plex-convert.js",
+  "dependencies": {
+    "handbrake-js": "^0.3.2",
+    "prompt": "^0.2.12",
+    "lazy": "^1.0.11"
+  }
+}
