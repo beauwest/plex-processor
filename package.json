@@ -21,7 +21,6 @@
   "main": "plex-convert.js",
   "dependencies": {
     "handbrake-js": "^0.3.2",
-    "prompt": "^0.2.12",
-    "lazy": "^1.0.11"
+    "prompt": "^0.2.12"
   }
 }
