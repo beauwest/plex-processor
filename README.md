@@ -2,6 +2,8 @@ plex-processor
 ============
 Plex Processor is an simple, cross-platform method of converting DVD images, or any kind of movie files to Plex compatable files. The conversion process uses Handbrake to transcode the files.
 
+The conversion process is not directly tied to Plex, and can be used with any media server platform.
+
 ### Movies
 The script uses the Handbrake `--main-feature` setting to automatically detect the primary title on the DVD image.
 
