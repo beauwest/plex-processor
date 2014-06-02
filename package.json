@@ -20,7 +20,7 @@
   ],
   "main": "plex-convert.js",
   "dependencies": {
-    "handbrake-js": "^0.3.2",
+    "handbrake-js": "^1.1",
     "prompt": "^0.2.12",
     "mv": "^2.0.0"
   }
