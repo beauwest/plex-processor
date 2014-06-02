@@ -1,5 +1,5 @@
 {
-  "name": "plex-convert",
+  "name": "plex-processor",
   "description": "Simplified conversion of DVD images to Plex or other home media server compatable files and filenames.",
   "tags": [
     "plex",
@@ -10,10 +10,7 @@
     "convert"
   ],
   "version": "1.0.1",
-  "author": {
-    "name": "Beau West",
-    "email": "beau@west.gs"
-  },
+  "author": "Beau West <beau@west.gs>",
   "license": "Apache, Version 2.0",
   "engines": [
     "node >= 0.8.0"
@@ -23,5 +20,25 @@
     "handbrake-js": "^1.1",
     "prompt": "^0.2.12",
     "mv": "^2.0.0"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beaudesigns/plex-processor.git"
+  },
+  "keywords": [
+    "plex",
+    "handbrake",
+    "util",
+    "utility",
+    "video",
+    "convert"
+  ],
+  "bugs": {
+    "url": "https://github.com/beaudesigns/plex-processor/issues"
+  },
+  "homepage": "https://github.com/beaudesigns/plex-processor"
 }
