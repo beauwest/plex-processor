@@ -3,10 +3,9 @@
 
 var prompt = require('prompt'),
 	fs = require('fs'),
-	path = require('path'),
-	w = require('wodge');
+	path = require('path-extra');
 
-var configPath = path.join(w.getHomeDir(), ".plex-processor.json");
+var configPath = path.join(path.homedir(), ".plex-processor.json");
 
 // Check to see if we can get the config file.
 fs.exists(configPath, function (exists) {

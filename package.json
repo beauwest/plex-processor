@@ -20,8 +20,8 @@
   "dependencies": {
     "handbrake-js": "^1.1",
     "mv": "^2.0.0",
-    "prompt": "^0.2.12",
-    "wodge": "^0.7.0"
+    "path-extra": "^0.2.0",
+    "prompt": "^0.2.12"
   },
   "devDependencies": {},
   "scripts": {
