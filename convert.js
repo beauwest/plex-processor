@@ -2,15 +2,17 @@
 'use strict';
 
 var prompt = require('prompt'),
-	fs = require('fs');
+	fs = require('fs'),
+	path = require('path-extra');
 
+var configPath = path.join(path.homedir(), ".plex-processor.json");
 
 // Check to see if we can get the config file.
-fs.exists('config.json', function (exists) {
+fs.exists(configPath, function (exists) {
 	var configuration = {};
 	if (exists) {
 		try {
-			configuration = JSON.parse(fs.readFileSync('config.json'));
+			configuration = JSON.parse(fs.readFileSync(configPath));
 		} catch (exception) {
 			configuration = {};
 		}
@@ -102,7 +104,7 @@ fs.exists('config.json', function (exists) {
 			}
 		}, function (err, result) {
 			if (result) {
-				fs.writeFile('config.json', JSON.stringify(result, null, "\t"), function () {
+				fs.writeFile(configPath, JSON.stringify(result, null, "\t"), function () {
 					console.log('Configuration saved. Please restart.');
 					process.exit();
 				});
