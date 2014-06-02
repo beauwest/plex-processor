@@ -1,0 +1,105 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish', './' ]
+2 info using npm@1.4.13
+3 info using node@v0.10.28
+4 verbose node symlink /usr/local/bin/node
+5 verbose publish [ './' ]
+6 verbose cache add [ './', null ]
+7 verbose cache add name=undefined spec="./" args=["./",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: './',
+8 verbose parsed url   path: './',
+8 verbose parsed url   href: './' }
+9 silly lockFile 0ee6c175- ./
+10 verbose lock ./ /Users/beau/.npm/0ee6c175-.lock
+11 verbose tar pack [ '/Users/beau/.npm/plex-processor/1.0.1/package.tgz', './' ]
+12 verbose tarball /Users/beau/.npm/plex-processor/1.0.1/package.tgz
+13 verbose folder ./
+14 info prepublish plex-processor@1.0.1
+15 silly lockFile 04cb2bca-tar tar://./
+16 verbose lock tar://./ /Users/beau/.npm/04cb2bca-tar.lock
+17 silly lockFile bcfa7a47-plex-processor-1-0-1-package-tgz tar:///Users/beau/.npm/plex-processor/1.0.1/package.tgz
+18 verbose lock tar:///Users/beau/.npm/plex-processor/1.0.1/package.tgz /Users/beau/.npm/bcfa7a47-plex-processor-1-0-1-package-tgz.lock
+19 silly lockFile 04cb2bca-tar tar://./
+20 silly lockFile 04cb2bca-tar tar://./
+21 silly lockFile bcfa7a47-plex-processor-1-0-1-package-tgz tar:///Users/beau/.npm/plex-processor/1.0.1/package.tgz
+22 silly lockFile bcfa7a47-plex-processor-1-0-1-package-tgz tar:///Users/beau/.npm/plex-processor/1.0.1/package.tgz
+23 silly lockFile a4b7902c-npm-plex-processor-1-0-1-package /Users/beau/.npm/plex-processor/1.0.1/package
+24 verbose lock /Users/beau/.npm/plex-processor/1.0.1/package /Users/beau/.npm/a4b7902c-npm-plex-processor-1-0-1-package.lock
+25 silly lockFile a4b7902c-npm-plex-processor-1-0-1-package /Users/beau/.npm/plex-processor/1.0.1/package
+26 silly lockFile a4b7902c-npm-plex-processor-1-0-1-package /Users/beau/.npm/plex-processor/1.0.1/package
+27 silly lockFile 0ee6c175- ./
+28 silly lockFile 0ee6c175- ./
+29 silly publish { name: 'plex-processor',
+29 silly publish   description: 'Simplified conversion of DVD images to Plex or other home media server compatable files and filenames.',
+29 silly publish   tags: [ 'plex', 'handbrake', 'util', 'utility', 'video', 'convert' ],
+29 silly publish   version: '1.0.1',
+29 silly publish   author: { name: 'Beau West', email: 'beau@west.gs' },
+29 silly publish   license: 'Apache, Version 2.0',
+29 silly publish   engines: [ 'node >= 0.8.0' ],
+29 silly publish   main: 'plex-convert.js',
+29 silly publish   dependencies: { 'handbrake-js': '^1.1', prompt: '^0.2.12', mv: '^2.0.0' },
+29 silly publish   devDependencies: {},
+29 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+29 silly publish   repository:
+29 silly publish    { type: 'git',
+29 silly publish      url: 'https://github.com/beaudesigns/plex-processor.git' },
+29 silly publish   keywords: [ 'plex', 'handbrake', 'util', 'utility', 'video', 'convert' ],
+29 silly publish   bugs: { url: 'https://github.com/beaudesigns/plex-processor/issues' },
+29 silly publish   homepage: 'https://github.com/beaudesigns/plex-processor',
+29 silly publish   readme: 'plex-processor\n============\nPlex Processor is an simple, cross-platform method of converting DVD images, or any kind of movie files to Plex compatable files. The conversion process uses Handbrake to transcode the files.\n\nThe conversion process is not directly tied to Plex, and can be used with any media server platform.\n\n### Movies\nThe script uses the Handbrake `--main-feature` setting to automatically detect the primary title on the DVD image.\n\n### TV Shows\nTracks on DVD images that are within the duration parameters will be converted in order that they appear on the DVD and named in sequential episode numbers.\n\nCommand line use\n================\nInstall\n-------\nInstall [Node.js](http://nodejs.org), then run\n\n```sh\n$ npm install\n```\n\nUsage\n-----\nCall `node convert` from the command line.\n```sh\n$ node convert\n```\nOn the first run, you will be prompted to set up your configuration.\n\nConfiguration\n-------------\n\n* preset: Choose from the [list of Handbrake presets](https://trac.handbrake.fr/wiki/BuiltInPresets).\n* movie_input: Path to the movie input directory.\n* movie_ouput: Path to the movie output directory.\n* tv_input: Path to the TV input directory.\n* tv_ouput: Path to the TV output directory.\n* archive: Path to place the completed files into.\n',
+29 silly publish   readmeFilename: 'README.md',
+29 silly publish   gitHead: '61a77b6804006b2e3ce96cf769976ef7bda3cbf4',
+29 silly publish   _id: 'plex-processor@1.0.1',
+29 silly publish   _shasum: 'e594605fbfce98e034f6dbf58f7e2801ba8a780c',
+29 silly publish   _from: './' }
+30 verbose url raw plex-processor
+31 verbose url resolving [ 'https://registry.npmjs.org/', './plex-processor' ]
+32 verbose url resolved https://registry.npmjs.org/plex-processor
+33 info trying registry request attempt 1 at 10:40:44
+34 http PUT https://registry.npmjs.org/plex-processor
+35 http 403 https://registry.npmjs.org/plex-processor
+36 verbose headers { date: 'Mon, 02 Jun 2014 15:40:45 GMT',
+36 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+36 verbose headers   'content-type': 'application/json',
+36 verbose headers   'cache-control': 'max-age=1',
+36 verbose headers   'content-length': '4408',
+36 verbose headers   'accept-ranges': 'bytes',
+36 verbose headers   via: '1.1 varnish',
+36 verbose headers   'x-served-by': 'cache-d64-DAL',
+36 verbose headers   'x-cache': 'MISS',
+36 verbose headers   'x-cache-hits': '0',
+36 verbose headers   'x-timer': 'S1401723645.393229,VS0,VE297',
+36 verbose headers   'keep-alive': 'timeout=10, max=50',
+36 verbose headers   connection: 'Keep-Alive' }
+37 error publish Failed PUT 403
+38 error Error: forbidden cannot modify pre-existing version: 1.0.1
+38 error old={"name":"plex-processor","description":"Simplified conversion of DVD images to Plex or other home media server compatable files and filenames.","tags":["plex","handbrake","util","utility","video","convert"],"version":"1.0.1","author":{"name":"Beau West","email":"beau@west.gs"},"license":"Apache, Version 2.0","engines":["node >= 0.8.0"],"main":"plex-convert.js","dependencies":{"handbrake-js":"^1.1","prompt":"^0.2.12","mv":"^2.0.0"},"devDependencies":{},"scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"https://github.com/beaudesigns/plex-processor.git"},"keywords":["plex","handbrake","util","utility","video","convert"],"bugs":{"url":"https://github.com/beaudesigns/plex-processor/issues"},"homepage":"https://github.com/beaudesigns/plex-processor","gitHead":"24a9112d871d1d04b61f757e475754c3c2fd3ccc","_id":"plex-processor@1.0.1","_shasum":"03dc13797932eedfafc4900354b7adca18fc1483","_from":"./","_npmVersion":"1.4.13","_npmUser":{"name":"beauwest","email":"beau@west.gs"},"maintainers":[{"name":"beauwest","email":"beau@west.gs"}],"dist":{"shasum":"03dc13797932eedfafc4900354b7adca18fc1483","tarball":"http://registry.npmjs.org/plex-processor/-/plex-processor-1.0.1.tgz"}}
+38 error new={"name":"plex-processor","description":"Simplified conversion of DVD images to Plex or other home media server compatable files and filenames.","tags":["plex","handbrake","util","utility","video","convert"],"version":"1.0.1","author":{"name":"Beau West","email":"beau@west.gs"},"license":"Apache, Version 2.0","engines":["node >= 0.8.0"],"main":"plex-convert.js","dependencies":{"handbrake-js":"^1.1","prompt":"^0.2.12","mv":"^2.0.0"},"devDependencies":{},"scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"https://github.com/beaudesigns/plex-processor.git"},"keywords":["plex","handbrake","util","utility","video","convert"],"bugs":{"url":"https://github.com/beaudesigns/plex-processor/issues"},"homepage":"https://github.com/beaudesigns/plex-processor","readme":"plex-processor\u000a============\u000aPlex Processor is an simple, cross-platform method of converting DVD images, or any kind of movie files to Plex compatable files. The conversion process uses Handbrake to transcode the files.\u000a\u000aThe conversion process is not directly tied to Plex, and can be used with any media server platform.\u000a\u000a### Movies\u000aThe script uses the Handbrake `--main-feature` setting to automatically detect the primary title on the DVD image.\u000a\u000a### TV Shows\u000aTracks on DVD images that are within the duration parameters will be converted in order that they appear on the DVD and named in sequential episode numbers.\u000a\u000aCommand line use\u000a================\u000aInstall\u000a-------\u000aInstall [Node.js](http://nodejs.org), then run\u000a\u000a```sh\u000a$ npm install\u000a```\u000a\u000aUsage\u000a-----\u000aCall `node convert` from the command line.\u000a```sh\u000a$ node convert\u000a```\u000aOn the first run, you will be prompted to set up your configuration.\u000a\u000aConfiguration\u000a-------------\u000a\u000a* preset: Choose from the [list of Handbrake presets](https://trac.handbrake.fr/wiki/BuiltInPresets).\u000a* movie_input: Path to the movie input directory.\u000a* movie_ouput: Path to the movie output directory.\u000a* tv_input: Path to the TV input directory.\u000a* tv_ouput: Path to the TV output directory.\u000a* archive: Path to place the completed files into.\u000a","readmeFilename":"README.md","gitHead":"61a77b6804006b2e3ce96cf769976ef7bda3cbf4","_id":"plex-processor@1.0.1","_shasum":"e594605fbfce98e034f6dbf58f7e2801ba8a780c","_from":"./","_npmVersion":"1.4.13","_npmUser":{"name":"beauwest","email":"beau@west.gs"},"maintainers":[{"name":"beauwest","email":"beau@west.gs"}],"dist":{"shasum":"e594605fbfce98e034f6dbf58f7e2801ba8a780c","tarball":"http://registry.npmjs.org/plex-processor/-/plex-processor-1.0.1.tgz"}}: plex-processor
+38 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:274:14)
+38 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:212:65)
+38 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+38 error     at Request.EventEmitter.emit (events.js:98:17)
+38 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+38 error     at Request.EventEmitter.emit (events.js:117:20)
+38 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+38 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+38 error     at _stream_readable.js:919:16
+38 error     at process._tickCallback (node.js:419:13)
+39 error If you need help, you may report this *entire* log,
+39 error including the npm and node versions, at:
+39 error     <http://github.com/npm/npm/issues>
+40 error System Darwin 13.2.0
+41 error command "node" "/usr/local/bin/npm" "publish" "./"
+42 error cwd /Users/beau/Projects/plex-processor
+43 error node -v v0.10.28
+44 error npm -v 1.4.13
+45 verbose exit [ 1, true ]

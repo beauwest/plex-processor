@@ -9,7 +9,7 @@
     "video",
     "convert"
   ],
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Beau West <beau@west.gs>",
   "license": "Apache, Version 2.0",
   "engines": [
