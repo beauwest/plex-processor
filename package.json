@@ -1,6 +1,6 @@
 {
   "name": "plex-convert",
-  "description": "Simplified conversion of DVD images to Plex compatable files.",
+  "description": "Simplified conversion of DVD images to Plex or other home media server compatable files and filenames.",
   "tags": [
     "plex",
     "handbrake",
@@ -9,7 +9,7 @@
     "video",
     "convert"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Beau West",
     "email": "beau@west.gs"
