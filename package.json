@@ -16,6 +16,7 @@
     "node >= 0.8.0"
   ],
   "main": "plex-convert.js",
+  "bin": "convert.js",
   "dependencies": {
     "handbrake-js": "^1.1",
     "prompt": "^0.2.12",
