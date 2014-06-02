@@ -19,8 +19,9 @@
   "bin": "convert.js",
   "dependencies": {
     "handbrake-js": "^1.1",
+    "mv": "^2.0.0",
     "prompt": "^0.2.12",
-    "mv": "^2.0.0"
+    "wodge": "^0.7.0"
   },
   "devDependencies": {},
   "scripts": {
