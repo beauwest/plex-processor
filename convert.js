@@ -101,7 +101,7 @@ fs.exists('config.json', function (exists) {
 			}
 		}, function (err, result) {
 			if (result) {
-				fs.writeFile('config.json', JSON.stringify(result), function () {
+				fs.writeFile('config.json', JSON.stringify(result, null, "\t"), function () {
 					console.log('Configuration saved. Please restart.');
 					process.exit();
 				});
