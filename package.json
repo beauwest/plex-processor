@@ -21,9 +21,9 @@
     "handbrake-js": "^1.1",
     "mv": "^2.0.0",
     "path-extra": "^0.2.0",
-    "prompt": "^0.2.12"
+    "prompt": "^0.2.12",
+    "request": "^2.40.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
