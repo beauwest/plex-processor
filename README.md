@@ -37,3 +37,10 @@ Configuration
 * tv_input: Path to the TV input directory.
 * tv_ouput: Path to the TV output directory.
 * archive: Path to place the completed files into.
+* 
+
+Ripping a DVD
+=============
+On Windows, I use [MakeMKV](http://www.makemkv.com/). On Mac, I use [RipIt](http://thelittleappfactory.com/ripit/). Rip the DVD file(s) to your computer.
+
+If it's a TV show, I name the folder "ShowName 105" (season 1, episode 5).
